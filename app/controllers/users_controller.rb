@@ -19,7 +19,7 @@ class UsersController < ApplicationController
     if @user.save
       redirect_to user_path(resource), notice: 'Welcome! You have signed up successfully.'
     end
-  end
+ end
 
 
 
